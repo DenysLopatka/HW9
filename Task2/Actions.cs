@@ -6,6 +6,7 @@ namespace Task2
     {
         public void StartMenu()
         {
+            Console.WriteLine("This is test");
             System.Console.WriteLine("Hello! What do you want to do?\n(1)Add new bank acount\n(2)Log in");
             var actionInStartMenu = Console.ReadLine();
 
